@@ -11,24 +11,16 @@ const navbar = () => {
               <nav>
                  <div className='left'>
                     <img src='client/public/amalogo (1).png' alt=""/> 
-                 </div>
+                 
                  <div className='nav_searchbar'>
+                 </div>
                      <input type='text' name='' id=''/>
-                     <div className='search_icon'>
-                      <Search/>
-                     </div>
                  </div>
                  <div className='right'>
                    <div className='nav_but'>
-                    <NavLink to="/login">signin</NavLink>
-                   </div>
-                   <div className='cart_btn'></div>
-                   <Badge badgeContent={4} color="primary">
-                       <ShoppingCartIcon/>
-                   </Badge>
-                   <p>cart</p>
-                 </div>
-                 <Avatar className='avatar'/>
+                    <NavLink to="/login">SignIn</NavLink>
+                   </div> 
+                </div>
               </nav>
            </header>
 

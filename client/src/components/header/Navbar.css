@@ -49,17 +49,15 @@ header nav .left .search_icon{
     height: 38px;
     width: 40px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    border-bottom-right-radius: 3px;
-    border-top-right-radius: 3px;
+    justify-content: left;
+    border-bottom-right-radius: 1px;
+    border-top-right-radius: 1px;
     cursor: pointer;
 }
 
 header nav .nav_searchbaar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: flex;
+   flex-direction: column;
 }
 
 /* header nav .left input:focus{
